@@ -68,8 +68,3 @@ function html_form_token_field($token = null)
   $token_value = is_array($token) ? $token['value'] : $token;
   return '<input type="hidden" name="form_token" value="'.$token_value.'" id="form_token">';
 }
-
-
-
-
-?>

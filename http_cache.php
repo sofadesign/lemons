@@ -85,5 +85,3 @@ function _http_cache_control()
   header("Cache-Control: Public",true);
   header("Pragma: Public",true);   
 }
-
-?>
